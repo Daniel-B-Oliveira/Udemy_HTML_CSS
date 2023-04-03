@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML</title>
+    <style>
+        h1{
+            background-color: crimson;
+        }
+        .image-in-text{
+            width: 472px;
+            height: 605px;
+        }
+        .span-loren{
+            font-size: 20px;
+            color:crimson
+        }
+    </style>
+</head>
+<body>
+    <h1>Header</h1>
+    <p>
+        <b>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</b> Incidunt exercitationem cupiditate rem? Architecto molestiae vel distinctio soluta. Fugit obcaecati architecto similique sit rerum, nam ad, fuga beatae magnam, impedit odio.
+    </p>
+    <p>
+        <strong>ipsum dolor sit, amet consectetur adipisicing elit.</strong> Aspernatur doloribus repellendus ab tenetur ratione ducimus nobis sunt impedit voluptas animi maiores, neque, architecto at fuga voluptatem, blanditiis libero adipisci consectetur!
+    </p>
+    <p>
+        <i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</i> Illum facere, nam quo dicta iste dolorum ipsa blanditiis obcaecati ad veniam voluptate minus aspernatur autem sapiente quaerat. Aliquam enim pariatur facere.
+    </p>
+    <p>
+        <em>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</em> Voluptates soluta fugit ratione, perspiciatis corrupti totam dolores eligendi quia sunt quidem molestias veniam quas reprehenderit unde aliquam possimus ex facere doloribus!
+    </p>
+    <p>
+        <a href="https://www.lipsum.com/" target="_blank">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a> Autem placeat consequatur quisquam facilis mollitia, repellat porro sunt aspernatur minima magnam totam aperiam, quasi quod corporis eum, obcaecati tempora optio maxime?
+    </p>
+    <hr>
+    <p>
+        <a href="https://en.wikipedia.org/wiki/Cicero" target="bl">
+        <img class="image-in-text" src="https://cdn.pensador.com/img/authors/ci/ce/cicero-l.jpg" alt="image of Marcus Tullius Cicero"></a><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ut velit quae cum dolorem nesciunt deserunt enim est. Quod commodi dolor nesciunt quae illo deserunt praesentium, ut soluta distinctio quia!
+    </p>
+    <hr>
+    <p>
+        <del>loren</del> <ins>Lorem</ins> ipsum dolor sit amet consectetur adipisicing elit. Molestias harum quam excepturi quia rem culpa. Eligendi molestias facere sequi cumque ad doloremque dicta porro, error distinctio, ab suscipit tempore fugit?
+    </p>
+    <p>
+        <s>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sequi pariatur quos quo velit reiciendis quasi suscipit beatae consequuntur ullam. Nisi quo vero maiores id! Voluptas molestiae eligendi voluptatibus vel.
+        </s>
+    </p>
+    <p>
+        <u>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde consectetur explicabo amet eaque voluptatem asperiores dolores a vel temporibus quidem accusamus ex fugit exercitationem veniam quod nesciunt eius, corrupti eveniet!
+        </u>
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <small>Numquam, libero! Quos rem quis dolor ullam similique sunt nesciunt error minus, quasi veritatis, reprehenderit dolorum necessitatibus laboriosam, aspernatur quibusdam molestias culpa.</small>
+    </p>
+    <p>
+        Lorem <sup>ipsum</sup> <sub>dolor</sub> sit amet consectetur, adipisicing elit. Placeat suscipit rem asperiores, doloribus mollitia animi minima voluptate dicta expedita molestiae. Ex distinctio numquam eveniet dolore aut. Repudiandae dolore perferendis libero.
+    </p>
+    <p>
+        <q cite="https://www.lipsum.com/">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</q><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit officiis natus, totam adipisci sapiente saepe impedit ullam dolor facere at id alias accusamus dolores sed dolorum! Qui, nisi neque. Nemo?
+    </p>
+    <blockquote cite="https://www.lipsum.com/">
+        "<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    </blockquote>
+    <pre>
+        <code>
+        tamanho = 4
+
+        escopo_a = []
+        escopo_b = []
+
+        for n in range(tamanho, 0, -1):
+            for p in range(tamanho**n):
+                if n != tamanho:
+                    escopo_b.append(escopo_a[0:tamanho])
+                    del escopo_a[0 : tamanho]
+                else:    # "gerador" de numeros
+                    escopo_b.append(p)
+            escopo_a = escopo_b
+            escopo_b = []
+        </code>
+    </pre>
+    <p>
+        <span class="span-loren">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span> Suscipit corporis facere ullam consequuntur minima quasi rem vitae cumque aliquid quam voluptas enim molestias deleniti ipsum nostrum tenetur aut, veritatis voluptatum.
+    </p>
+</body>
+</html>
