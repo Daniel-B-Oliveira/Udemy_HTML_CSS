@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+[meu-atributo~="valor"]{
+    color: red;
+}
+
+[meu-atributo^="valor-a"]{
+    color: red;
+}

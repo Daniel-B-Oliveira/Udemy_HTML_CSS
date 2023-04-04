@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    color: initial;
+    margin-left: 20px;
+}
+
+
+.filha > .filha{
+    color: red;
+}

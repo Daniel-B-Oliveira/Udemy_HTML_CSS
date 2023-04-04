@@ -1,0 +1,40 @@
+/* p:not(.meio) {
+    color: blue;
+}
+
+input:not(:checked) + p{
+    background-color: yellow;
+} */
+
+/* ul li:nth-child(odd){
+    background-color: rebeccapurple;
+}
+
+ul li:nth-child(even){
+    background-color: darkturquoise;
+}
+
+ul li:nth-child(3n){
+    background-color: darkolivegreen;
+} */
+
+/* ul li::after{
+    content: ' - ';
+} */
+
+p::first-letter{
+    font-size: 150px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+/* p::first-line{
+    background: rebeccapurple;
+} */
+
+p::selection{
+    font-size: 50px;
+    background: black;
+    color: white
+}
