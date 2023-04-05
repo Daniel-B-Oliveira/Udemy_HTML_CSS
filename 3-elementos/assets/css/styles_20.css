@@ -1,0 +1,32 @@
+/* html, body{
+    height: 100%;
+} */
+
+body{
+    background-image:url(https://p4.wallpaperbetter.com/wallpaper/560/329/229/red-forest-26750-3840x2160-wallpaper-preview.jpg);
+    background-color: rgba(75, 9, 9, 0.493);
+}
+
+.Texto{
+    background: rgb(206, 47, 47);
+
+    width: 100%;
+    height: 100%;
+
+    max-width: 500px;
+    max-height: 500px;
+
+    min-width: 0;
+    min-height: 100;
+
+    overflow: auto;
+
+    margin: 0 auto;
+
+    border: 5px rgb(90, 10, 10);
+    border-style:outset ridge;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+

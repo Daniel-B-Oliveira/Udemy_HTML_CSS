@@ -1,0 +1,21 @@
+/* 
+ID      Classes, Atributos e pseudo-classes       Elementos e pseudo-elementos
+1           0                                           0
+0           1                                           0
+1           1                                           0
+*/
+
+/* 
+4ª espefificidade
+3ª empate
+2ª style
+1ª !impotante
+*/
+
+#p {
+    background: red;
+}
+
+.p {
+    background: yellow !important;
+}
