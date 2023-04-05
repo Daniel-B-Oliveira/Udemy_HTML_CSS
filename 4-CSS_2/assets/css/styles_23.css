@@ -1,0 +1,28 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.pai{
+    width: 100vw;
+    height: 100vh;
+    background: #ffee00;
+}
+
+p {
+    font-size: 2vmax;
+}
+
+.color-one{
+    background: turquoise;
+}
+
+.color-two{
+    background: violet;
+}
